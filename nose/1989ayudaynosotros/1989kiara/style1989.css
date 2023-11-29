@@ -1,0 +1,79 @@
+header{
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    background-color: rgb(235, 223, 184);
+    padding: 2rem 9%;
+    display: flex;
+    align-content: space-between;
+    z-index: 1000;
+    box-shadow:0 .5rem 1rem rgba(0,0,0,.2);
+}
+
+header .logo{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+    color: #333;
+    font-weight: bolder;
+}
+
+header .navbar a{
+    position: auto;
+    font-size: 1.5rem;
+    padding: 0 1.5rem;
+    color: rgb(0, 0, 0);
+
+}
+
+header .navbar a:hover{
+    color:var(--pink)
+}
+
+header .navbar{
+    margin-top: 1srem;
+    margin-left: 20rem;
+}
+header .icons{
+    margin-top: 1rem;
+    margin-left: 25rem;
+}
+
+header .icons i{
+    font-size: 1.5rem;
+    color:#333;
+    margin-left: 1.5rem;
+}
+
+header .icons i:hover{
+    color:var(--pink)
+}
+
+header #toggler{
+    display: none;
+}
+
+header .fa-bars{
+    font-size: 3rem;
+    color: #333;
+    border-radius: .5rem;
+    padding: .5rem 1.5rem;
+    cursor: pointer;
+    border: .1rem solid rgba(0,0,0,.3);
+    display: none;
+}
+
+/*-------------------------------------------------------------------------------------*/
+
+.ppp h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 10rem;
+    font-size:4rem;
+}
+.ppp h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+}
+
+.ppp p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+}

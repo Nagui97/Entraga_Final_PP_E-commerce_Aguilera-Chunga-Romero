@@ -1,0 +1,99 @@
+/*color: https://encycolorpedia.es/f5f5dc*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+background-color: #EEE9E3;
+    
+  }
+  
+  header {
+    background-color: transparent;
+    padding: 20px;
+    text-align: center;
+  }
+    
+  nav li {
+    display: inline-block;
+    margin-right: 100px;
+  }
+  
+  nav li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+  }
+  
+  nav li a:hover {
+    background-color: rgb(192, 190, 190);
+    border-radius: 20px;
+    text-decoration:underline;
+  }
+
+  .enlace .logo{
+    float: left;
+    color: black;
+    margin-top: -3px;
+}
+
+  .form-register {
+    width: 400px;
+    background: #f3f3e6; 
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: #222;
+    box-shadow: 7px 13px 37px rgb(0, 0, 0);
+  }
+  
+  .form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+  .controls {
+    width: 100%;
+    background: #fdf5e6;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #68686883;
+    font-family: 'calibri';
+    font-size: 18px;
+  }
+
+  
+  
+  .form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+  }
+  
+  .form-register a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+  
+  .form-register a:hover {
+    color: #8a6642;
+    text-decoration: underline;
+  }
+  
+  .form-register .botons {
+    width: 100%;
+    background: #8a6642;
+    border: none;
+    border-radius: 10px;
+    padding: 12px;
+    color: rgb(255, 255, 255);
+    margin: 16px 0;
+    font-size: 16px;
+  }
+
